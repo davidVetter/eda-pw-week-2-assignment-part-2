@@ -170,6 +170,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - We need 'enter' to be logged unless minAge is greater than age. Switching <= to > makes this work.
+// Use "if(minAge > age)"
 if(minAge <= age) {
   console.log('no entry');
 } else {
