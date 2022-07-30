@@ -155,6 +155,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX we need both conditions to be true, not either one || is or and we need && for and
+// we should be using "if (temp > 39 && time >= 4)"
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
