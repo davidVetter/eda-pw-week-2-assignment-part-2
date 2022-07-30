@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Answer - Created a variable called name and set its value to the string 'Dane'.
+// There is an if/else statement that checks if the value of name is equal to 'Mary'.
+// The value of name of is not Mary so the else statement would run and 'How do you do?'
+// would be logged in the console.
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Answer - Created a variable secret and did not assign a value yet. Created another variable
+// called code and assigned a value of 123. An if statement checks if the value of code is 123
+// and the same type. Code is equal to 123 so the if statement will run and set the variable
+// secret to a value of 'super' and multiply the value of the variable code by 2 resulting in a
+// new value of 246. Another if statement checks if code is greater than 250. Code is under 250
+// so the code in the if is not run. We finally console log the value of secret which is 'super'.
 
 //CODE
 /*
@@ -70,10 +72,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Created 3 variables, isStudent with a boolean value of true, age with a value of 34 and
+// zip with a value of 55407. A series of if/else statements runs. It first checks if isStudent
+//is equal to true AND zip be greater than 80000. These are not BOTH true so that code is not run.
+// The next else if statement checks if isStudent is false OR age is less than 30. Neither of these is
+// true so this code is also skipped. The next else/if checks if isStudent is equal to true. This
+// statement is true so we console log 'Welcome to Prime!'. An if was true so the final else statement is
+// not run.
 
 //CODE
 /*
